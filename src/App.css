@@ -1,0 +1,18 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: light --default, dark --prefersdark, cupcake;
+}
+/* @plugin "daisyui/theme" {
+  name: "light";
+  default: true;
+  --color-primary: green;
+  --color-secondary: teal;
+}  */
+@layer components {
+  .align-element {
+    @apply mx-auto max-w-6xl px-8;
+  }
+}
+/* * {
+  border: 1px solid red;
+} */
