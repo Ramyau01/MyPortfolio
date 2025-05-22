@@ -5,7 +5,7 @@ import { Carousel } from "./sub/SkillsCarousel";
 export const Experience = () => {
   return (
     <section
-      className="px-8 mb-16"
+      className="align-element my-16"
       id="skills"
       aria-label="Experience and Skills"
     >

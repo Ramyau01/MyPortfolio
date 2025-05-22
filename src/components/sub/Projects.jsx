@@ -5,7 +5,7 @@ export const Projects = () => {
   return (
     <section
       aria-label="Projects Section"
-      className="px-8 mb-16 md:mb-24"
+      className="my-16 md:my-28 align-element"
       id="projects"
     >
       <Headings text={"Projects"}></Headings>
@@ -26,10 +26,10 @@ export const Projects = () => {
               key={id}
               className="relative group card bg-white  shadow-sm w-full"
             >
-              <span className="absolute top-2 left-4 badge badge-sm badge-warning font-bold">
+              <span className="absolute top-2 left-4 badge badge-sm text-white bg-primary-content font-bold">
                 {type}
               </span>
-              <figure className="pt-8">
+              <figure className="pt-10">
                 <img src={image} alt={`Image of the project ${title}`} />
               </figure>
               <div className="card-body p-2">

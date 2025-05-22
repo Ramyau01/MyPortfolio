@@ -1,5 +1,3 @@
-import { links } from "../../assets/data";
-
 export const Modal = ({ details, githubURL, websiteURL }) => {
   return (
     <div className="w-full">
@@ -8,7 +6,7 @@ export const Modal = ({ details, githubURL, websiteURL }) => {
           href={githubURL}
           target="_blank"
           rel="noopener noreferrer"
-          className="btn btn-outline btn-sm text-primary hover:bg-primary hover:text-white transition"
+          className="btn btn-outline btn-sm text-primary-content hover:bg-primary hover:text-white transition"
         >
           GitHub Repository
         </a>
@@ -16,7 +14,7 @@ export const Modal = ({ details, githubURL, websiteURL }) => {
           href={websiteURL}
           target="_blank"
           rel="noopener noreferrer"
-          className="btn btn-outline btn-sm text-primary hover:bg-primary hover:text-white transition"
+          className="btn btn-outline btn-sm text-primary-content hover:bg-primary hover:text-white transition"
         >
           Live Demo
         </a>

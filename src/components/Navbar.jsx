@@ -10,7 +10,7 @@ export const Navbar = ({ calculateHeight }) => {
 
   return (
     <nav>
-      <div className="navbar bg-base-100 shadow-sm" ref={NavbarRef}>
+      <div className="navbar shadow-sm" ref={NavbarRef}>
         <div className="navbar-start flex-none w-auto">
           <div className="dropdown">
             <button
@@ -51,7 +51,7 @@ export const Navbar = ({ calculateHeight }) => {
             aria-current="page"
             className="btn btn-ghost text-xl hidden md:flex"
           >
-            daisyUI
+            <span className="font-extrabold text-3xl"> R.</span>
           </a>
         </div>
         <div className="navbar-center flex-1 justify-center">
@@ -60,7 +60,7 @@ export const Navbar = ({ calculateHeight }) => {
             aria-current="page"
             className="btn btn-ghost text-xl md:hidden"
           >
-            daisyUI
+            <span className="font-extrabold text-3xl"> R.</span>
           </a>
 
           <ul

@@ -1,6 +1,8 @@
 import { socialLinks } from "../assets/data";
-export const Button = ({ children }) => {
-  return <button className="btn btn-primary">{children}</button>;
+export const Button = ({ children, className }) => {
+  return (
+    <button className={`btn btn-primary ${className || ""}`}>{children}</button>
+  );
 };
 
 export const LinkButton = (props) => {

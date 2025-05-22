@@ -5,6 +5,7 @@ import { useState } from "react";
 import { Experience } from "./components/Experience";
 import { Projects } from "./components/sub/Projects";
 import { Footer } from "./components/Footer";
+import { About } from "./components/sub/About";
 function App() {
   const [height, setHeight] = useState(null);
   function calculateNavHeight(ref) {
@@ -14,12 +15,19 @@ function App() {
   console.log("nav height", height);
   return (
     <>
-      <Navbar calculateHeight={calculateNavHeight}></Navbar>
-      <section className="align-element px-0">
+      <section
+        aria-label="hero"
+        className="min-h-screen bg-cover bg-center "
+        style={{ backgroundImage: "url('/hero.webp')" }}
+      >
+        <Navbar calculateHeight={calculateNavHeight}></Navbar>
         <Hero height={height}></Hero>
-        <Projects></Projects>
-        <Experience></Experience>
       </section>
+
+      <Projects></Projects>
+      <About></About>
+      <Experience></Experience>
+
       <Footer></Footer>
     </>
   );
