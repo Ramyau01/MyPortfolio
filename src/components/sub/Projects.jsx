@@ -30,8 +30,12 @@ export const Projects = () => {
                 <span className="absolute top-2 left-4 badge badge-sm text-white bg-primary-content font-bold">
                   {type}
                 </span>
-                <figure className="pt-10">
-                  <img src={image} alt={`Image of the project ${title}`} />
+                <figure className="pt-10 h-72">
+                  <img
+                    src={image}
+                    alt={`Image of the project ${title}`}
+                    className="object-contain h-full w-full"
+                  />
                 </figure>
                 <div className="card-body p-2">
                   <h2 className="card-title text-center text-base md:text-lg ">
