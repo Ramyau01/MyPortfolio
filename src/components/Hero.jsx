@@ -15,7 +15,7 @@ export const Hero = ({ height }) => {
           <h1 className="font-bold text-3xl md:text-4xl leading-7 md:leading-14 tracking-widest">
             Hi I'm Ramya!
           </h1>
-          <h2 className="font-extrabold text-3xl md:text-3xl md:leading-14 tracking-widest mt-4 md:mt-2 text-primary-content">
+          <h2 className="font-extrabold text-2xl md:text-3xl md:leading-14 tracking-widest mt-4 md:mt-2 text-primary-content">
             &lt;A Frontend Developer /&gt;
           </h2>
           <p className="py-6 leading-6 tracking-wider text-lg md:text-xl">

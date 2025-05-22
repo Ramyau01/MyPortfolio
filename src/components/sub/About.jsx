@@ -4,12 +4,13 @@ export const About = () => {
   return (
     <section
       id="about"
-      aria-label="Projects Section"
-      className="my-16 md:my-24 align-element"
+      aria-label="About Section"
+      // className="my-24 md:my-32 align-element"
+      className=" align-element"
     >
-      <div className="flex md:flex-row flex-col-reverse">
+      <div className="flex md:flex-row flex-col-reverse py-20">
         <div className="md:w-1/2">
-          <Headings text={"About Me"}></Headings>
+          <Headings text={"Ramya Unnikrishnan"}></Headings>
           <p className="text-center text-base">
             I'm a Front-End Developer with a solid background in web
             technologies and nearly 4.5 years of experience working with Python.

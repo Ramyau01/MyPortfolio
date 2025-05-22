@@ -90,7 +90,7 @@ export const experienceData = [
 export const skillsData = [
   {
     name: "HTML",
-    icon: "/skills/html.png",
+    icon: "/skills/html.webp",
   },
   {
     name: "CSS",
@@ -98,51 +98,51 @@ export const skillsData = [
   },
   {
     name: "JavaScript",
-    icon: "/skills/js.png",
+    icon: "/skills/js.webp",
   },
   {
     name: "TailwindCSS",
-    icon: "/skills/tailwind.png",
+    icon: "/skills/tailwind.webp",
   },
   {
     name: "Bootstrap",
-    icon: "/skills/tailwind.png",
+    icon: "/skills/bootstrap.webp",
   },
   {
     name: "ReactJS",
-    icon: "/skills/react.png",
+    icon: "/skills/react.webp",
   },
   {
     name: "Vite",
-    icon: "/skills/vite.png",
+    icon: "/skills/vite.webp",
   },
   {
     name: "Framer Motion",
-    icon: "/skills/framer.png",
+    icon: "/skills/framer.webp",
   },
   {
     name: "NodeJS",
-    icon: "/skills/nodejs.png",
+    icon: "/skills/nodejs.webp",
   },
   {
     name: "MongoDB",
-    icon: "/skills/mongodb.png",
+    icon: "/skills/mongodb.webp",
   },
   {
     name: "Python",
-    icon: "/skills/mongodb.png",
+    icon: "/skills/python.webp",
   },
   {
     name: "Django REST",
-    icon: "/skills/mongodb.png",
+    icon: "/skills/django_rest.webp",
   },
   {
     name: "Github",
-    icon: "/skills/github.png",
+    icon: "/skills/github.webp",
   },
   {
     name: "VS Code",
-    icon: "/skills/vscode.png",
+    icon: "/skills/vscode.webp",
   },
 ];
 
