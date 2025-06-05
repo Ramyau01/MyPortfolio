@@ -94,7 +94,7 @@ export const skillsData = [
   },
   {
     name: "CSS",
-    icon: "/skills/css.png",
+    icon: "/skills/css.webp",
   },
   {
     name: "JavaScript",

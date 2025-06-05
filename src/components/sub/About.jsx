@@ -30,6 +30,7 @@ export const About = () => {
             >
               +1 (470) 226-7456
             </a>
+            <span> </span>
             or via email at <span> </span>
             <a
               href="mailto:ramyakrishnan13@gmail.com"
