@@ -173,7 +173,7 @@ export const ProjectInfo = [
     image: personaImage,
     type: "Professional",
     title: "Persona Bridal Studio",
-    website_url: "https://coruscating-hamster-bd961d.netlify.app/",
+    website_url: "https://creative-medovik-bc5ac8.netlify.app/",
     github_url: "https://github.com/Ramyau01/personabeautysalon.git",
     techstack: ["HTML", "CSS", "JS", "Bootstrap", "Git"],
     description: [
