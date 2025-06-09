@@ -31,7 +31,7 @@ export const Hero = ({ height }) => {
             Projects
           </Button>
           <LinkButton
-            href="./IT Resume-python (4).pdf"
+            href="./Ramya Unnikrishnan.pdf"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Download Resume"
